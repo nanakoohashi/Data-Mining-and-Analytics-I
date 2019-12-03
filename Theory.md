@@ -1,13 +1,13 @@
 # Overview of Data Mining
 Businesses want information about their costumers, products, services, competitors, business environment, and more, and data mining can help them find it.
 - **Customers**: The aim of **customer relationship management (CRM)** is to understand th expectations of customers and anticipating their needs.
-  -**CRM is composed of two main elements**:
+  - **CRM is composed of two main elements**:
     1. **Analytical CRM**
-      - **Aim**: Extract, store, analyse and output the relevant information to provide a comprehensive, integrated view of a customer in the business, in order to understand his profile and needs more fully.
+      - **Aim**: Extract, store, analyze and output the relevant information to provide a comprehensive, integrated view of a customer in the business, in order to understand his profile and needs more fully.
         - **Raw Marterial of Analytical CRM** = Data
         - **Components of Analytical CRM** = Data warehouse, data mart, multidimensional analysis (online analytical processing), data mining, reporting tools.
     2. **Operational CRM**
-      - **Aim**: Managing the various channels (sales force, call centers, voice servers, interactive terminals, moble telephones, internet, etc.) and marketing campains for the best implementation of the strategies indentified by the analytcial CRM.
+      - **Aim**: Managing the various channels (sales force, call centers, voice servers, interactive terminals, mobile telephones, internet, etc.) and marketing campaigns for the best implementation of the strategies indentified by the analytcial CRM.
       - Is based on the results of analytical CRM, but also supplies analytical CRM with data for analysis. Thus, there is a data 'loop' between operational and analytical CRM, reinforced by the fact that the multiplication of communication channels means that customer information of increasing richness and complexity has to be captured and analyzed. 
   - **Customer segmentation** involves looking at the behavior and developing a descriptive profile for your customers. These profiles are then used to provide prersonalized marketing programs and strategies that are appropriate for each group.
 - **Competitors**: If you have more information about customers than your competitors, is that an advantage? How big of one?
@@ -26,6 +26,8 @@ The combination of artificial intelligence (AI) and statistical analysis to disc
     - **Descriptive (=Exploratory)**: Designed to bring out information that is present but burried in a mass of data
       - Clusters, groups, associations between different products or relief symptoms that you didn't initially see.
     - **Predictive**:  Designed to extrapolate new information based on present information, this new information being **qualitative (in the form of classification or scoring)** or **quantitative** (regression).
+### Data Mining for one-to-one marketing
+Data mining makes use of databases, or, increasingly, data warehouses, which store the profile of each customer, in other words the totality of his characteristics, and the totality of his past and present agreements and exchanges with the business. This global and historical knowledge of each customer enables the business to consider an individual approach, or ‘one-to-one marketing’, as in the case of a corner shop owner ‘who knows his customers and always offers them what suits them best’. The aim of this approach is to improve the customer's satisfaction, and consequently his loyalty, which is important because it is more expensive (by a factor of 3–10) to acquire a new customer than to retain an old one, and the development of consumer comparison skills has led to a faster customer turnover. 
 ### 10 Steps of Data Mining Study Development
 1. Define the aims
   - Define the target population - do you want prospects and customers, customers only or loyal customers only? All patients or only those patients who can be cured by the treatment under test?

@@ -1,6 +1,14 @@
 # Overview of Data Mining
 Businesses want information about their costumers, products, services, competitors, business environment, and more, and data mining can help them find it.
 - **Customers**: The aim of **customer relationship management (CRM)** is to understand th expectations of customers and anticipating their needs.
+  -**CRM is composed of two main elements**:
+    1. **Analytical CRM**
+      - **Aim**: Extract, store, analyse and output the relevant information to provide a comprehensive, integrated view of a customer in the business, in order to understand his profile and needs more fully.
+        - **Raw Marterial of Analytical CRM** = Data
+        - **Components of Analytical CRM** = Data warehouse, data mart, multidimensional analysis (online analytical processing), data mining, reporting tools.
+    2. **Operational CRM**
+      - **Aim**: Managing the various channels (sales force, call centers, voice servers, interactive terminals, moble telephones, internet, etc.) and marketing campains for the best implementation of the strategies indentified by the analytcial CRM.
+      - Is based on the results of analytical CRM, but also supplies analytical CRM with data for analysis. Thus, there is a data 'loop' between operational and analytical CRM, reinforced by the fact that the multiplication of communication channels means that customer information of increasing richness and complexity has to be captured and analyzed. 
   - **Customer segmentation** involves looking at the behavior and developing a descriptive profile for your customers. These profiles are then used to provide prersonalized marketing programs and strategies that are appropriate for each group.
 - **Competitors**: If you have more information about customers than your competitors, is that an advantage? How big of one?
 - **Products/Services**: What kind of products are selling well? *e.g. Online shopping suggestions.*

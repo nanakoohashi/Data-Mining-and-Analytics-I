@@ -57,3 +57,11 @@ Data mining makes use of databases, or, increasingly, data warehouses, which sto
 - Whenever a new data mining application is brought into use, the results must be analyzed.
 10. Enrich the models
 When the results of the use of a first data mining model are measured, the model can be improved, as we have seen, either by adding independent variables that are not considered initially, or by using feedback from experience to determine the profiles to be predicted (e.g. 'purchaser/non-purchaser') if theses results were not available before.
+### Implementation of Data Mining
+The main factors in the success of a project are:
+1. Precise, substantial and realistic targets;
+2. The richness and quality of the information collected;
+3. The cooperation of the departmental and statistical specialists in the organization;
+4. The relevance of the data mining techniques used;
+5. Satisfactory output of the information generated and correct integration into the information system where appropriate;
+6. Analysis of the results and feedback of experience from each application of data mining, to be used for the next application.

@@ -147,3 +147,38 @@ Why do we need to prepare data?
   - Contradictions in data
   - Decisions are based on the data; bad data=bad decisions
 ## Transforming Variables: Data Normalilization 
+**Goal of Data Normalization**: Make the variables proportional to one another.
+  - *e.g. if one variable is 50x larger than another (on average), you may want your variables to be approximately equivalent in the model. That way, the coefficients will reflect meaningful relative activity between each variable (i.e. a possible coefficient will mean that the variable acts positively towards the objective function, and vice versa, plus a large coefficient versus a small  coefficient willl reflect the degree to which that variable influences the objective function.
+  - Normalization of a continuous variable is done by transforming the variable with a mathematical function, which compresses its distribtuion, brings it closer to a normal distribtuion, and, if necessary, decreases its heteroscedasticity and increases its discriminating power in a linear model.
+## Transforming Variables: Data Discretization
+- **Discretization**: process of converting continuous data into a typically small number of finite values (e.g. high, medium, low). 
+- The variation in the original data is maintained in the discretized dataset.
+- Discretization is a necessary precursor to data mining and is accomplished by assigning each value in a dataset to a bin. 
+- Data ranges = bin boundaries
+### Tips for creating bins:
+- Avoid too many differences in classese between variables
+- Avoid too many classes for a variable
+- Avoid classes too small (4-5 classes is good).
+## Variable Interaction
+One phenomenon commonly encountered in the real world is that the simultaneous action of two variables is not the sum of the independent actions of the variables = 'interactions' between the variables.
+  - *e.g. When looking at gender and smoking, is age also a consideration? Are older females more likely to smoke?*
+  - This step of detecting the interactions has to preformed by some models such as linear models (linear discriminant analysis or logistic regression), which are additive.
+## Collinearity
+- **Definition**: Correlation among the predictors in a multiple regression.
+- Because of this "redundancy", collinearity confuses the effects of the predictors.
+- *e.g. if height and weight are both used to predict something (e.g. intelligence), your results will be skewed because height and weight are related (generally because the taller someone is, the more he weighs related to someone shorter).
+## Random Sampling
+- **Sampling**: indispensable procedure in statistics and data mining, especially in prediction and classification, where most algorithms use a *training sample* for developing the model and a *test sample* for validating the model, or multiple samples for cross-tabulated validation.
+- Sampling is required for the development of a predictive model, if only for the creation of the training and test samples for optimizing the selection of the independent variables.
+### Four methods of sampling
+#### 1. Simple Random Sampling
+Involves drawing *n* individuals at random without replacement from a populatoin of *N*, each individual having a probability of 1/*N* of being drawn.
+#### 2. System Sampling
+The individuals are drawn not at random, but in a regular way. If we carry out a '1/100' sampling, we take the first individual, then the 101st, then the 201st, and so on. We must pay attention to the cyclical data with this form of sampling: if we use customer numbers, the hundreds number may be a family number, and if we take one customer in every hundred, we will never choose two individuals in the same family. However, this sampling mode can also provide a degree of comprehensiveness.
+#### 3. Stratified Sampling
+Here, we divide the populuation, *e.g. by divinding the customers into age ranges*, and then draw customers at random from each stratum to obtain a sub-sample for each stratum; we can then bring all these sub-samples together.
+- **Proportional Stratified Sampling**: the relative size of each sub-sample is equal to the relative size of the corresponding division: *e.g. if 30% of the customers in the population are aged >60, then 30% of any stratified sample by age must be aged >60.
+- **Nonproportional Stratified Sampling**: It amy be useful to carry out a non-proportional stratified sampling procedure to take itno account the variability of the phenomena studied in each stratum: thus we can underrpresent the strata in which the variability is low (where the interesting information is concentrated in a few individuals) and overrepresent the strata in which the variability is high (which require a larger number of individuals to establish the information).
+#### 4. Cluster Sampling
+Drawing favmilies of individuals (the 'clusters') at random and choosing all the individuals in each cluster, thus being know as a **census**.
+- We may, for example, choose certain urban districts at random and then ask questions of all the customers from these districts. Or we can choose a family name at random and then carry out a census of all the customers whose family name starts with the letter drawn at random.

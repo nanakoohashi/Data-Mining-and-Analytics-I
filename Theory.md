@@ -87,7 +87,7 @@ Categorical data represent characteristics such as a person's gender, marital st
 Uncoded texts, written in natural language:
   - *e.g. letters of complaint, reports, and press dispatches.*
 
-## Analyzing Data
+## Exploring Data
 ### Univariate
 Univariate means we are looking at one variable.
 - One of the simplest ways to analyze data
@@ -95,3 +95,55 @@ Univariate means we are looking at one variable.
 - You can describe univariate data using numerical measurements, such as the mean, median, mode, standard deviation.
   - **Barchart**: Qualitative or Discrete Variable.
     - Frequency Table
+  - ** Histogram and Box Plot**: Continuous Variable.
+  
+### Exploring Data: What else to explore?
+Data objects that don't follow the general behavior of other data:
+- Aberrant values
+- Misisng values
+- Extreme values  
+These might be considered noise or exceptions, but might also be used in fraud detection or might be a rare event.
+
+## Tests of Normality
+Many statistical procedures (including correlation, regression, t-tests, and analysis of variance) are based on the assumption that the data follow a normal distribution; that is, it is assumed that the populations from which the samples are taken are normally distributed. 
+### Shapiro-Wilk (P-P) plot
+In the Shapiro-Wilk test, the cumulative distribution of the data is shown on a normal probability scale, called a P-P (probability-probability) plot, where a normal distribution is shown by a straight line with a slope of 1. Thus the Shapiro-Wilk statistic is a way of measuring how far the graphic representation of the data deviates from the straight line.
+### Kolmogorov-Smirnov
+The Kolmogorov-Smirnov test involves measuring the maximum deviation *D* (in absolute terms) between the distribution function (cumulative density function) of the variable tested and the distribution function of a Gaussian variable (or, more generally, of any continuous variable whose distribution is to be compared with that of the observed variable). We then calculate the probability of obersving such a large value of *D* on the hypothesis H0 that the tested data come from a normal distribution. If this probability is below a given threshold of 0.05 ir 0.10 (a higher threshold can be used if the sample sizes are smaller), we reject H0 and conclude that the data do not come from a normal distribution.
+### Anderson-Darling
+This is most often used where a family of distributions are being tested, in which case the parameters of that family need to be estimated and account must be taken of this in adjusting either the test-statistic or its critical values.
+
+## Homoscedascity
+A formal requirement for some statistical analyses which is used to compare the means of two or more groups.  
+- Literally means 'having the same scatter/variance' and indicates having data values that are scattered, or spread out, to about the same extent.
+- *e.g. Imagine that you want to use family income to predict luxury spending. At the lower income levels, you won't see much variance because they don't have much to spend. However, when you get to the higher income levels, families vary greatly in their luxury spending. Some people like to save; some are spenders. In this case, you don't have homoscedacity (you have heteroscedacity), and your regression model could be impacted.
+- Tests for homoscedacity include:
+  - Levine (best)
+  - Bartlett
+  - Fisher
+  
+## Bivariate Analysis
+- **Bivariate** = two variables
+- With bivariate data you have two sets of related data you want to compare.
+- *e.g. A bike shop might want to measure how many bicyclists come in on warm weather days vs. cold weather days.
+- You might have **two discrete variables**: such as when measuring the link between gender and smoking.
+  - Tests:
+    - Cramer's V
+    - Chi-Squared
+- You might have **one discrete and one continuous variable**, as when measuring dosage of a medicine and recovery time. 
+  - Tests:
+    - Parametric ANOVA test
+      - Requires normality/homoscedacity assumption
+    - Non-parametric approaches
+      - Wilcoxon-Mann-Whitney (2 groups)
+      - Kruskal-Wallis (>2 groups)
+## Data Preparation: Transforming Variables
+Why do we need to prepare data?
+- In the real world applications data can be inconsistent, incomplete, and/or noisy
+  - Data entry or data collection problems
+  - Discrepancy in naming conventions
+  - Duplicated records
+  - Incomplete or missing data
+  - Contradictions in data
+  - Decisions are based on the data; bad data=bad decisions
+## Transforming Variables: Data Normalilization 

@@ -65,3 +65,4 @@ The main factors in the success of a project are:
 4. The relevance of the data mining techniques used;
 5. Satisfactory output of the information generated and correct integration into the information system where appropriate;
 6. Analysis of the results and feedback of experience from each application of data mining, to be used for the next application.
+# Data Exploration and Preparation

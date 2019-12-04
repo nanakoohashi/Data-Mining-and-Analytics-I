@@ -69,9 +69,20 @@ The main factors in the success of a project are:
 
 # Data Exploration and Preparation
 ## Types of Data
+### Quantitative
 - **Continuous**
   - Have possible values that cannot be counted and can only be described using intervals on the real number line. 
   - *e.g. length, height, salary*
 - **Discrete**
   - Represent items that can be counted; they take on possible values that can be listed out; there is no continuum between values.
   - *e.g. number of items bought*
+### Qualitative
+Categorical data represent characteristics such as a person's gender, marital status, hometown, or types of movies they like. They may have numberical values (such as "1" indicating male and "2" indicating female), but those numbers don't have mathematical meaning.
+- **Ordered (=Ordinal, Discrete)**
+  - Falls into categories, but numbers placed on the categories have meaning (e.g. ratings, ranks).
+  - *e.g. Low, medium, high
+- **Non-ordered (=Nominal)**
+  - *e.g. Blue, white, orange etc.
+### Text
+Uncoded texts, written in natural language:
+  - *e.g. letters of complaint, reports, and press dispatches.

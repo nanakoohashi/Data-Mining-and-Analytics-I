@@ -26,6 +26,7 @@ The combination of artificial intelligence (AI) and statistical analysis to disc
     - **Descriptive (=Exploratory)**: Designed to bring out information that is present but burried in a mass of data
       - Clusters, groups, associations between different products or relief symptoms that you didn't initially see.
     - **Predictive**:  Designed to extrapolate new information based on present information, this new information being **qualitative (in the form of classification or scoring)** or **quantitative** (regression).
+- A note on terminology. **Variable** is taken to mean any characteristic of an entity (person, organization, object, event, case, etc.) which can be expressed by a numerical value (a measurement) or a coded value (an attribute). The different possible values that a variable can take in the whole set of entities concerned are called the **categories** of the variable. The statistical entity that is studied is often called the **individual**, even if it is not a person. According to statistical usage, we may also use the term **observation**.
 ### Data Mining for one-to-one marketing
 Data mining makes use of databases, or, increasingly, data warehouses, which store the profile of each customer, in other words the totality of his characteristics, and the totality of his past and present agreements and exchanges with the business. This global and historical knowledge of each customer enables the business to consider an individual approach, or ‘one-to-one marketing’, as in the case of a corner shop owner ‘who knows his customers and always offers them what suits them best’. The aim of this approach is to improve the customer's satisfaction, and consequently his loyalty, which is important because it is more expensive (by a factor of 3–10) to acquire a new customer than to retain an old one, and the development of consumer comparison skills has led to a faster customer turnover. 
 ### 10 Steps of Data Mining Study Development
@@ -34,14 +35,14 @@ Data mining makes use of databases, or, increasingly, data warehouses, which sto
   - Define the statistical entity to be studied (e.g. a person, a specific kind of household, a business, etc.)
   - Define some essential criteria and especially the phenomenon to be predicted.
   - Plan the project, deciding on the expected operational use of the information extracted and models produced.
-  - Specify the expected results  
+  - Specify the expected results.
 #### 2. List the existing data
 - List the data that will be useful, accessible, exploitable, reliable, and sufficiently up-to-date and where they can be found.
 - If the aim is to construct a predictive model, it will also be necessary to find a second type of data, namely the historical data on the phenomenon to be predicted.  
 #### 3. Collect the data
 - This step leads to the construction of the database that will be used for the construction of models. This *analysis base* is usually in the form of a table, having one record (row) for each statistical individual studied and one field (one column) for each variable relating to this individual.  
 #### 4. Explore and prepare the data
-- Check the origin of the data: Is the data reliable? Replace or  remove incorrect data, extreme values, aberrant values, missing values.
+- Check the origin of the data: Is the data reliable? Replace or remove incorrect data, extreme values, aberrant values, missing values.
 - Create relevant indicators.
 - Reduce the number of dimensions of the problem.
 #### 5. Segment the population
@@ -65,4 +66,12 @@ The main factors in the success of a project are:
 4. The relevance of the data mining techniques used;
 5. Satisfactory output of the information generated and correct integration into the information system where appropriate;
 6. Analysis of the results and feedback of experience from each application of data mining, to be used for the next application.
+
 # Data Exploration and Preparation
+## Types of Data
+- **Continuous**
+  - Have possible values that cannot be counted and can only be described using intervals on the real number line. 
+  - *e.g. length, height, salary*
+- **Discrete**
+  - Represent items that can be counted; they take on possible values that can be listed out; there is no continuum between values.
+  - *e.g. number of items bought*

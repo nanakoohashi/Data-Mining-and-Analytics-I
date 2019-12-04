@@ -80,9 +80,18 @@ The main factors in the success of a project are:
 Categorical data represent characteristics such as a person's gender, marital status, hometown, or types of movies they like. They may have numberical values (such as "1" indicating male and "2" indicating female), but those numbers don't have mathematical meaning.
 - **Ordered (=Ordinal, Discrete)**
   - Falls into categories, but numbers placed on the categories have meaning (e.g. ratings, ranks).
-  - *e.g. Low, medium, high
+  - *e.g. Low, medium, high*
 - **Non-ordered (=Nominal)**
-  - *e.g. Blue, white, orange etc.
+  - *e.g. Blue, white, orange etc.*
 ### Text
 Uncoded texts, written in natural language:
-  - *e.g. letters of complaint, reports, and press dispatches.
+  - *e.g. letters of complaint, reports, and press dispatches.*
+
+## Analyzing Data
+### Univariate
+Univariate means we are looking at one variable.
+- One of the simplest ways to analyze data
+- To describe a set of data, you can summarize it or describe the overall pattern. The best way to start seeing it is by literally looking at it. You can tell patterns, differences between groups, anomalies such as outliers or missing values by looking at graphs and charts.
+- You can describe univariate data using numerical measurements, such as the mean, median, mode, standard deviation.
+  - **Barchart**: Qualitative or Discrete Variable.
+    - Frequency Table

@@ -69,7 +69,7 @@ The main factors in the success of a project are:
 
 # Data Exploration and Preparation
 ## Types of Data
-### Quantitative
+### Quantitative (=numerical)
 - **Continuous**
   - Have possible values that cannot be counted and can only be described using intervals on the real number line. 
   - *e.g. length, height, salary*
@@ -95,7 +95,7 @@ Univariate means we are looking at one variable.
 - You can describe univariate data using numerical measurements, such as the mean, median, mode, standard deviation.
   - **Barchart**: Qualitative or Discrete Variable.
     - Frequency Table
-  - ** Histogram and Box Plot**: Continuous Variable.
+  - **Histogram and Box Plot**: Continuous Variable.
   
 ### Exploring Data: What else to explore?
 Data objects that don't follow the general behavior of other data:
@@ -125,6 +125,9 @@ A formal requirement for some statistical analyses which is used to compare the 
 ## Bivariate Analysis
 - **Bivariate** = two variables
 - With bivariate data you have two sets of related data you want to compare.
+  - Incompatibilities between variables;
+  - Links between the dependent ('target') variable and the independent variables and their interactions, in order to eliminate the variables having no effect on the dependent variable;
+  - Links between the independent variables, which must be avoided in some methods, such as linear and logisitic regression.
 - *e.g. A bike shop might want to measure how many bicyclists come in on warm weather days vs. cold weather days.
 - You might have **two discrete variables**: such as when measuring the link between gender and smoking.
   - Tests:
@@ -166,7 +169,7 @@ One phenomenon commonly encountered in the real world is that the simultaneous a
 ## Collinearity
 - **Definition**: Correlation among the predictors in a multiple regression.
 - Because of this "redundancy", collinearity confuses the effects of the predictors.
-- *e.g. if height and weight are both used to predict something (e.g. intelligence), your results will be skewed because height and weight are related (generally because the taller someone is, the more he weighs related to someone shorter).
+- *e.g. if height and weight are both used to predict something (e.g. intelligence), your results will be skewed because height and weight are related (generally because the taller someone is, the more he weighs related to someone shorter).*
 ## Random Sampling
 - **Sampling**: indispensable procedure in statistics and data mining, especially in prediction and classification, where most algorithms use a *training sample* for developing the model and a *test sample* for validating the model, or multiple samples for cross-tabulated validation.
 - Sampling is required for the development of a predictive model, if only for the creation of the training and test samples for optimizing the selection of the independent variables.

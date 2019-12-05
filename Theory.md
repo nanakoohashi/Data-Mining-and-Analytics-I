@@ -195,3 +195,4 @@ Drawing favmilies of individuals (the 'clusters') at random and choosing all the
   - If residuals are plotted on a separate graph, they should have a slope of 0 (horizontal line).
     - Heteroscedastic residuals plotted on a separate graph should have a postive slope.
 4. Normality of Error Distribution
+  - Distance from residuals to linear line should be normally distributed (i.e. most residuals are close to the predicted line, with very few outliers). 

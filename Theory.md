@@ -118,9 +118,9 @@ A formal requirement for some statistical analyses which is used to compare the 
 - Literally means 'having the same scatter/variance' and indicates having data values that are scattered, or spread out, to about the same extent.
 - *e.g. Imagine that you want to use family income to predict luxury spending. At the lower income levels, you won't see much variance because they don't have much to spend. However, when you get to the higher income levels, families vary greatly in their luxury spending. Some people like to save; some are spenders. In this case, you don't have homoscedacity (you have heteroscedacity), and your regression model could be impacted.
 - Tests for homoscedacity include:
-  - Levine (best)
-  - Bartlett
-  - Fisher
+  - Levine (best - has low sensitivity to non-normality)
+  - Bartlett (best if the distribution is normal)
+  - Fisher (the least robust if normailty is not preent)
   
 ## Bivariate Analysis
 - **Bivariate** = two variables
@@ -128,7 +128,7 @@ A formal requirement for some statistical analyses which is used to compare the 
   - Incompatibilities between variables;
   - Links between the dependent ('target') variable and the independent variables and their interactions, in order to eliminate the variables having no effect on the dependent variable;
   - Links between the independent variables, which must be avoided in some methods, such as linear and logisitic regression.
-- *e.g. A bike shop might want to measure how many bicyclists come in on warm weather days vs. cold weather days.
+- *e.g. A bike shop might want to measure how many bicyclists come in on warm weather days vs. cold weather days.*
 - You might have **two discrete variables**: such as when measuring the link between gender and smoking.
   - Tests:
     - Cramer's V
@@ -185,3 +185,13 @@ Here, we divide the populuation, *e.g. by divinding the customers into age range
 #### 4. Cluster Sampling
 Drawing favmilies of individuals (the 'clusters') at random and choosing all the individuals in each cluster, thus being know as a **census**.
 - We may, for example, choose certain urban districts at random and then ask questions of all the customers from these districts. Or we can choose a family name at random and then carry out a census of all the customers whose family name starts with the letter drawn at random.
+## Linear Regression Assumptions
+1. Linearity
+2. Independence of Errors
+  - Residuals should not following a pattern.
+  - Errors (residuals) should be random.
+3. Homoscedasticity
+  - Residuals should not get larger (funnel shaped) as you go along the x-axis.
+  - If residuals are plotted on a separate graph, they should have a slope of 0 (horizontal line).
+    - Heteroscedastic residuals plotted on a separate graph should have a postive slope.
+4. Normality of Error Distribution

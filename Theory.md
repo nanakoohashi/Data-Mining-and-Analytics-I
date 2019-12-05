@@ -186,13 +186,13 @@ Here, we divide the populuation, *e.g. by divinding the customers into age range
 Drawing favmilies of individuals (the 'clusters') at random and choosing all the individuals in each cluster, thus being know as a **census**.
 - We may, for example, choose certain urban districts at random and then ask questions of all the customers from these districts. Or we can choose a family name at random and then carry out a census of all the customers whose family name starts with the letter drawn at random.
 ## Linear Regression Assumptions
-1. Linearity
-2. Independence of Errors
+### 1. Linearity
+### 2. Independence of Errors
   - Residuals should not following a pattern.
   - Errors (residuals) should be random.
-3. Homoscedasticity
+### 3. Homoscedasticity
   - Residuals should not get larger (funnel shaped) as you go along the x-axis.
   - If residuals are plotted on a separate graph, they should have a slope of 0 (horizontal line).
     - Heteroscedastic residuals plotted on a separate graph should have a postive slope.
-4. Normality of Error Distribution
+### 4. Normality of Error Distribution
   - Distance from residuals to linear line should be normally distributed (i.e. most residuals are close to the predicted line, with very few outliers). 

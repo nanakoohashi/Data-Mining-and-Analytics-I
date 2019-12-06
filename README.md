@@ -55,8 +55,8 @@ First install "gmodels" package
 - If value close to 1 continue to cor.test() command for p-value
 ### Cor.test() for p-value
 - **Code**: cor.test(*name of .csv file* $ *column1*, *name of .csv file* $ *column2*)
- - cor.test(*name of .csv file* $ *column3*, *name of .csv file* $ *column2*)
- - cor.test(*name of .csv file* $ *column1*, *name of .csv file* $ *column3*)
+  - cor.test(*name of .csv file* $ *column3*, *name of .csv file* $ *column2*)
+  - cor.test(*name of .csv file* $ *column1*, *name of .csv file* $ *column3*)
 - e.g. cor.test(heating$temperature, heating$insulation)
- - cor.test(heating$othervariable, heating$insulation)
- - cor.test(heating$temperature, heating$othervariable)
+  - cor.test(heating$othervariable, heating$insulation)
+  - cor.test(heating$temperature, heating$othervariable)

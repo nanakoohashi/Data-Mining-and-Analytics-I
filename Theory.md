@@ -196,3 +196,63 @@ Drawing favmilies of individuals (the 'clusters') at random and choosing all the
     - Heteroscedastic residuals plotted on a separate graph should have a postive slope.
 ### 4. Normality of Error Distribution
   - Distance from residuals to linear line should be normally distributed (i.e. most residuals are close to the predicted line, with very few outliers). 
+# Statistical Tools, Techniques and Methods: Commercial Data Types
+## Evolution from business data to business information
+1. What happened?
+  - *e.g. What was my total revenue in the last five years?*
+2. Why did it happen?
+  - *e.g. Why were sales higher in the Western region than the Eastern region last quarter?*
+3. What will happen?
+  - *e.g. What's likely to happen to Los Angeles unit sales next month? Why?*
+4. What is the best that could happen? (optimization)
+  - *e.g. What ad campaign to which new market segment will likely lead to the highest sales volue?*
+## Types of Data
+There are several common types of data that are used in commercial sectors.
+### 1. Transactional Data
+- Where? (geographical locations, businesses where the transactions took place, internet, etc.)
+- When? (frequency and recency of the transations)
+- How? (method of payment)
+- How much? (number and value of transations)
+- What? (what has been purchased)
+### 2. Product Data
+Information can be collected on different products (numbers, types, options, prices, date of purchase or subscription, date and reason for cancellation or return of products, mean product life or expiry date, payment date and method, discount granted to the customer, and profit margin on this product for the business, etc.)
+### 3. Customer Data
+Data on customers include:
+- **Lifetimes**: *i.e. age, lifetime as a customer of the business, length of time in present job.*
+- **Relational, Attitudinal, and Psychographic Data**: *i.e. responses to marketing campaigns and offers, loyalty, satisfaction, lifestyle, personality.*
+- **Sociodemographic Data**: *i.e. sex, education, occupation, income, geographical information.*
+- **Channel**: *i.e. through which contact, orders, and delivery came through.*
+### 4. Geodemographic Data
+Environmental and geodemographic includes: competition, population, working population, customer population, unemployment rates, economic potential, product ownership rates, etc., in the area of residence of the customer or prospect, etc.  
+- The existence of these data has led to the emergence of geomarketing which basically assumes that the customer's potential for the business will be roughly equal to the difference between the 'shopping basket' of consumers in his area and what he has purchased already.
+#### More about Geographic data
+- Not relating to individuals, but to geographic environment
+- Modeling and analysis of all factors between customer's residence and mode of consumption (Franck Bleuzen)
+- Place of residence in terms of economics, sociodemographics, housing and competition
+### Other Data Types (technical)
+In addition to the main types of data seen on the previous slide, there is also technical data which is not used within a data mining analysis but is used to determine whether individuals are included in the analysis base. Technical data includes:
+- Type of customer
+- Non-acceptance of direct marketing
+- Bad payer status
+- Status as employee of the business
+- Title, surname, forename
+### Profitability Data
+- Special type of data
+- It is the difference between the profits to the business from a customer, segment, or market, etc., and the costs incurred, namely the acquisition and structural costs, commercial costs, operation processing costs and the cost of finance
+- Profitability to a business from a customer or business segment
+  - Determine the most profitable customers
+  - Hard to measure precisely
+  - Important measure is the **lifetime value** (LTV)
+    - Net present value of profitability of customer.
+## Data Used in Business Sectors
+- Four sectors
+  - Banking
+  - Insurance
+  - Telephone
+  - Mail Order
+# Software Comparison
+## Software programs
+1. **SAS**: Market leader for commercial applications. The software offers many statistical functions, has a good user interface for people to learn quickly and provides technical support. However, it ends up being the most expensive option and is not upgraded as rapidly as some of the others.
+2. **R**: Open source counterpart of SAS, which has traditionally been used in academics and research. Because of its open source nature, updates get released quickly. There is a lot of documentation available over the internet, and it is a very cost-effect option.
+3. **Python**: Originally a source scripting language, Python is growing very rapidly. Today, it has libraries and functions for almost any statistical operation or model building and has become very strong in operations on structured data.
+4. **SPSS**: Data mining software produced by IBM. It is common among some companies (but less so than either SAS or R). It works with large data systems. SPSS will not be covered in this course, although there are many resources online, if you would to become more familiar with it.

@@ -256,3 +256,14 @@ In addition to the main types of data seen on the previous slide, there is also 
 2. **R**: Open source counterpart of SAS, which has traditionally been used in academics and research. Because of its open source nature, updates get released quickly. There is a lot of documentation available over the internet, and it is a very cost-effect option.
 3. **Python**: Originally a source scripting language, Python is growing very rapidly. Today, it has libraries and functions for almost any statistical operation or model building and has become very strong in operations on structured data.
 4. **SPSS**: Data mining software produced by IBM. It is common among some companies (but less so than either SAS or R). It works with large data systems. SPSS will not be covered in this course, although there are many resources online, if you would to become more familiar with it.
+# Data Mining Methods
+## Data Mining Techniques
+### 1. Descriptive
+Designed to bring out information that is present but buried in a mass of data (as in the case of automatic clusering of individuals and searches for associations between products or medicines).
+- **Purpose**: Summarization for insight in performance
+  - *e.g. number of sales, social media posts, followers, or average amount of sales, etc. 
+### 2. Predictive
+Designed to extrapolate new information based on the present information, this new information being qualitative (in the form of classification or scoring) or quantitative (regression).
+- **Purpose**: Use statstical models and forecasting to allow you to predict what might happen in the future. They combine the past data to identify patterns and models.
+  - *e.g. forecasting inventory needs, identifying trends in sales activities, predicting what customers will buy which items.
+  

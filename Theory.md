@@ -266,4 +266,14 @@ Designed to bring out information that is present but buried in a mass of data (
 Designed to extrapolate new information based on the present information, this new information being qualitative (in the form of classification or scoring) or quantitative (regression).
 - **Purpose**: Use statstical models and forecasting to allow you to predict what might happen in the future. They combine the past data to identify patterns and models.
   - *e.g. forecasting inventory needs, identifying trends in sales activities, predicting what customers will buy which items.
-  
+## Descriptive Methods (= unsuperivsed methods)
+Do not predict a target value (*i.e. there is not a dependent variable*) but focus more on the structure, relationships, and interconnectedness of the data. Descriptive methods reduce, group, and summarize data. *e.g. you might want to identify the web pages that are accessed together*.
+### 1. Cluster Analysis
+Given a set of data points, each havign a set of attributes and a similarity measure among them, find clusters such that the data points in one cluster are more similar to one another and less similar to those in separate clusters.
+- *e.g. Consider a bookstore with different areas for the types of books: History, Self-Help, Romance, Mystery & Crime etc. The books in each of these clusters are more similar to each other than they are to otther clusters*
+### 2. PCA
+Imagine that you have a lot of information about your customers -- you might know their  gender, the  days of the week they typically shop, the products they buy, the frequency with which they buy certain items, the amount spent on the average trip, etc. You could have so many variables that it would cloud the picture -- you might not be able to see any patterns. Principal Component Analysis (PCA) can help you identify which variables are important so you can compress the data by reducing the number of dimensions. 
+### Association Analysis (= Market Basket Analysis)
+Association Analysis is also called Market Basket Analysis. In a given set of records, each will contain a number of items. Association Analysis allows you to determine the degree to which the items tend to be associated with one another. 
+- *e.g. people who buy hamburger buns will also likely buy ketchup and mustard and hamburger meat. You can associate items together and create rules.*
+

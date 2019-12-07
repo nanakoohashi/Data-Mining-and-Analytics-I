@@ -258,15 +258,15 @@ In addition to the main types of data seen on the previous slide, there is also 
 4. **SPSS**: Data mining software produced by IBM. It is common among some companies (but less so than either SAS or R). It works with large data systems. SPSS will not be covered in this course, although there are many resources online, if you would to become more familiar with it.
 # Data Mining Methods
 ## Data Mining Techniques
-### 1. Descriptive
+### 1. Descriptive Methods
 Designed to bring out information that is present but buried in a mass of data (as in the case of automatic clusering of individuals and searches for associations between products or medicines).
 - **Purpose**: Summarization for insight in performance
   - *e.g. number of sales, social media posts, followers, or average amount of sales, etc. 
-### 2. Predictive
+### 2. Predictive Methods
 Designed to extrapolate new information based on the present information, this new information being qualitative (in the form of classification or scoring) or quantitative (regression).
 - **Purpose**: Use statstical models and forecasting to allow you to predict what might happen in the future. They combine the past data to identify patterns and models.
   - *e.g. forecasting inventory needs, identifying trends in sales activities, predicting what customers will buy which items.
-## Descriptive Methods (= unsuperivsed methods)
+## Descriptive Methods (= Unsupervised Methods)
 Do not predict a target value (*i.e. there is not a dependent variable*) but focus more on the structure, relationships, and interconnectedness of the data. Descriptive methods reduce, group, and summarize data. *e.g. you might want to identify the web pages that are accessed together*.
 ### 1. Cluster Analysis
 Given a set of data points, each havign a set of attributes and a similarity measure among them, find clusters such that the data points in one cluster are more similar to one another and less similar to those in separate clusters.
@@ -276,4 +276,14 @@ Imagine that you have a lot of information about your customers -- you might kno
 ### Association Analysis (= Market Basket Analysis)
 Association Analysis is also called Market Basket Analysis. In a given set of records, each will contain a number of items. Association Analysis allows you to determine the degree to which the items tend to be associated with one another. 
 - *e.g. people who buy hamburger buns will also likely buy ketchup and mustard and hamburger meat. You can associate items together and create rules.*
-
+## Predictive Methods (= Supervised Methods)
+The objective of this method is to predict the value for a specific attribute (a dependent variable) based on the value of other attributes. 
+- *e.g. You might want to judge how a high school student will perform in college based on school grades, extracurricular activities, and standardized test scores. *
+- Grouped as either prediction techniques or classification techniques:
+- **Two important features critical to the classification of a data mining technique as a supervised learning method**:
+  1. The use of previously observed events, typically referred to as a target variable data.
+  2. The description of the target variable in terms of a set of explanatory variables.
+### Prediction Techniques
+  - Dependent variable is continuous.
+### Classification Techniques
+  - Dependent variable is binary or discrete.

@@ -299,5 +299,11 @@ Neural networks do not typically reflect a linear relationship between a target 
 ### Classification Techniques
   - Dependent variable is binary or discrete.
 #### 1. LDA
+- **Purpose**: Classifies (or discriminates) a qualitative outcome based on a set of inputs (usually quantitative).
+- *e.g. you might want to classify people based on a set of features - credit officers might want to determine if isomeone is a good risk or a bad risk (discriminate categories) based on different features, such as income, credit scores, etc.*
 #### 2. Logistic Regression
+- **Purpose**: Describes data and explains relationship between one dependent binary variable and one or more interval or ratio scale independent variables.
+- *e.g. you might want to know whether body weight and b ody fat percentage influence the occurence of diabetes (yes or no) in a person, for instance.*
 #### 3. Naive Bayes Classifier
+Naive Bayes is an algorithm that uses a set of training data to construct a model that can classify new data points.
+- *e.g. consider that your training data consist of red, round, apples; yellow, oblong bananas. If you have new object that is red, the probability is greater that it is an apple.*

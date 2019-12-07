@@ -285,5 +285,19 @@ The objective of this method is to predict the value for a specific attribute (a
   2. The description of the target variable in terms of a set of explanatory variables.
 ### Prediction Techniques
   - Dependent variable is continuous.
+#### 1. Linear Regression
+A common way of estimating the relationship between one or more input variables and a continuous target variable.
+- Assumes that the relationship between a continuous target variable and its corresponding inputs is linear - *i.e. best described by a straight line*. The fitting of a linear regression model involves the estimation of parameter estimates of "weights" that describes the influence of each input on the target variable value. These weights can also be used to predict the value of a new events.
+#### 2. Decision Trees
+Decision trees are akin to regression models in the way they fit a target variable to input variables, but does so one input at a time - first finding the split in a single variable that best discriminates between values of the target variables. The decision tree then continues to evaluate the remaining variables for the one that best further discriminates between target variable values, and so on until some criteria is reached at which the decision tree stops evaluating variables. Decision trees are popular in practice because they tend to be computationally straighforward and provide and intuitive application to new data for predicitve use.
+- *Note: if used to apply to existing data and not to new data, the Decision Tree method would be considered a Classification Technique.*
+#### 3. SVM
+A support vector machine (SVM) is associated with algorithms that can, given a set of training examples, build a model that assigns new examples into one category or another.
+#### 4. Neural Networks
+Neural networks do not typically reflect a linear relationship between a target and some set of inputs. Neural network models emulate aspects of human cognition and are flexible with regards to their ability to fit a target to non-linear relationships, and can approximate functions that depend on a large number of inputs. However, neural networks may become computationally intensive.
+- *Note: if used to apply to existing data and not to new data, the Neural Network method would be considered a Classification Technique.*
 ### Classification Techniques
   - Dependent variable is binary or discrete.
+#### 1. LDA
+#### 2. Logistic Regression
+#### 3. Naive Bayes Classifier

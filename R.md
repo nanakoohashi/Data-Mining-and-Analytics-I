@@ -1,4 +1,17 @@
 # R
+## Basic R
+### Read a CSV file
+read.table(file, header = TRUE, sep = ";", dec = ",", fill = TRUE)
+### Test of Variance
+var.test(size,sex)
+### Chi-Square Test
+chisq.test(table(situation,purchase)
+### Linear Regression 
+Linear.Model <- lm(formula = weight ~ (size+age), data = File)
+### Show Summary
+Summary(Linear.Model)
+### Plot the Results
+Plot(Linear.Model)
 ## Basic Tests
 ### Summary statistics
 Minimum, 1st Quartile, Median, Mean, 3rd Quartile, Maximum, NA's.

@@ -116,7 +116,7 @@ This is most often used where a family of distributions are being tested, in whi
 ## Homoscedascity
 A formal requirement for some statistical analyses which is used to compare the means of two or more groups.  
 - Literally means 'having the same scatter/variance' and indicates having data values that are scattered, or spread out, to about the same extent.
-- *e.g. Imagine that you want to use family income to predict luxury spending. At the lower income levels, you won't see much variance because they don't have much to spend. However, when you get to the higher income levels, families vary greatly in their luxury spending. Some people like to save; some are spenders. In this case, you don't have homoscedacity (you have heteroscedacity), and your regression model could be impacted.
+- *e.g. Imagine that you want to use family income to predict luxury spending. At the lower income levels, you won't see much variance because they don't have much to spend. However, when you get to the higher income levels, families vary greatly in their luxury spending. Some people like to save; some are spenders. In this case, you don't have homoscedacity (you have heteroscedacity), and your regression model could be impacted.*
 - Tests for homoscedacity include:
   - Levine (best - has low sensitivity to non-normality)
   - Bartlett (best if the distribution is normal)

@@ -151,7 +151,7 @@ Why do we need to prepare data?
   - Decisions are based on the data; bad data=bad decisions
 ## Transforming Variables: Data Normalilization 
 **Goal of Data Normalization**: Make the variables proportional to one another.
-  - *e.g. if one variable is 50x larger than another (on average), you may want your variables to be approximately equivalent in the model. That way, the coefficients will reflect meaningful relative activity between each variable (i.e. a possible coefficient will mean that the variable acts positively towards the objective function, and vice versa, plus a large coefficient versus a small  coefficient willl reflect the degree to which that variable influences the objective function.
+  - *e.g. if one variable is 50x larger than another (on average), you may want your variables to be approximately equivalent in the model. That way, the coefficients will reflect meaningful relative activity between each variable (i.e. a possible coefficient will mean that the variable acts positively towards the objective function, and vice versa, plus a large coefficient versus a small  coefficient willl reflect the degree to which that variable influences the objective function.*
   - Normalization of a continuous variable is done by transforming the variable with a mathematical function, which compresses its distribtuion, brings it closer to a normal distribtuion, and, if necessary, decreases its heteroscedasticity and increases its discriminating power in a linear model.
 ## Transforming Variables: Data Discretization
 - **Discretization**: process of converting continuous data into a typically small number of finite values (e.g. high, medium, low). 

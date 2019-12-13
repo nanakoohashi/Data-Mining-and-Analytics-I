@@ -272,13 +272,13 @@ Do not predict a target value (*i.e. there is not a dependent variable*) but foc
 Given a set of data points, each havign a set of attributes and a similarity measure among them, find clusters such that the data points in one cluster are more similar to one another and less similar to those in separate clusters.
 - *e.g. Consider a bookstore with different areas for the types of books: History, Self-Help, Romance, Mystery & Crime etc. The books in each of these clusters are more similar to each other than they are to otther clusters*
 ### 2. PCA
-Imagine that you have a lot of information about your customers -- you might know their  gender, the  days of the week they typically shop, the products they buy, the frequency with which they buy certain items, the amount spent on the average trip, etc. You could have so many variables that it would cloud the picture -- you might not be able to see any patterns. Principal Component Analysis (PCA) can help you identify which variables are important so you can compress the data by reducing the number of dimensions. 
+Imagine that you have a lot of information about your customers -- you might know their gender, the days of the week they typically shop, the products they buy, the frequency with which they buy certain items, the amount spent on the average trip, etc. You could have so many variables that it would cloud the picture -- you might not be able to see any patterns. Principal Component Analysis (PCA) can help you identify which variables are important so you can compress the data by reducing the number of dimensions. 
 ### Association Analysis (= Market Basket Analysis)
 Association Analysis is also called Market Basket Analysis. In a given set of records, each will contain a number of items. Association Analysis allows you to determine the degree to which the items tend to be associated with one another. 
 - *e.g. people who buy hamburger buns will also likely buy ketchup and mustard and hamburger meat. You can associate items together and create rules.*
 ## Predictive Methods (= Supervised Methods)
 The objective of this method is to predict the value for a specific attribute (a dependent variable) based on the value of other attributes. 
-- *e.g. You might want to judge how a high school student will perform in college based on school grades, extracurricular activities, and standardized test scores. *
+- *e.g. You might want to judge how a high school student will perform in college based on school grades, extracurricular activities, and standardized test scores.*
 - Grouped as either prediction techniques or classification techniques:
 - **Two important features critical to the classification of a data mining technique as a supervised learning method**:
   1. The use of previously observed events, typically referred to as a target variable data.
@@ -303,7 +303,7 @@ Neural networks do not typically reflect a linear relationship between a target 
 - *e.g. you might want to classify people based on a set of features - credit officers might want to determine if isomeone is a good risk or a bad risk (discriminate categories) based on different features, such as income, credit scores, etc.*
 #### 2. Logistic Regression
 - **Purpose**: Describes data and explains relationship between one dependent binary variable and one or more interval or ratio scale independent variables.
-- *e.g. you might want to know whether body weight and b ody fat percentage influence the occurence of diabetes (yes or no) in a person, for instance.*
+- *e.g. you might want to know whether body weight and body fat percentage influence the occurence of diabetes (yes or no) in a person, for instance.*
 #### 3. Naive Bayes Classifier
 Naive Bayes is an algorithm that uses a set of training data to construct a model that can classify new data points.
 - *e.g. consider that your training data consist of red, round, apples; yellow, oblong bananas. If you have new object that is red, the probability is greater that it is an apple.*
